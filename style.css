@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image:linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url('https://www.wallpapertip.com/wmimgs/4-43442_red-background-for-christmas-hd.jpg' );
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+nav  
+{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img
+{
+    width: 200px;
+    height: 100px;
+}
+.text-box
+{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.text-box h1
+{
+	font-size: 62px;
+}
+.text-box p
+{
+	font-size: 10px 0 40px;
+	font-size: 18px;
+	color: #fff;
+}
+
+
+@media (max-width: 700px) {
+
+	.text-box h1{
+		font-size: 46px;
+	}
+	.text-box p{
+		margin: 25px;
+
+	}
+	nav img{
+		width: 150px;
+		height: 80px;
+		margin: 10px;
+	}
+
+	/*.container img
+  {
+   width: 340px;
+	height: 385px;
+	padding: 0 50px 0 0;
+  
+	}*/
+}
+
+
+
+ .discription-container
+    {
+        max-width: 650px;
+        margin: 40px auto 20px;
+    }
+
+ .discription-container
+   {
+      text-align: justify;
+      font-size: 18px;
+   }
+
+ .discription-container .floating-image 
+ {
+   max-width: 400px;
+   max-height: 400px;
+
+ }
+ .discription-container .floating-image.right
+ {
+   float: right;
+   margin-left:15px;
+   margin-bottom: 10px;
+ }
+
+  .discription-container .floating-image.left
+ {
+   float: left;
+   margin-right:35px;
+   margin-bottom: 20px;
+ }
+
+
+@media (max-width: 700px)
+ {
+ 	
+
+ .discription-container h1
+   {
+      text-align: center;
+      font-size: 35px;
+   }
+
+   .discription-container p
+   {
+      text-align: center;
+      font-size: 20px;
+   }
+
+
+ .discription-container .floating-image 
+ {
+   max-width: 600px;
+   max-height: 400px;
+ }
+
+  .discription-container .floating-image.left
+ {
+  
+   margin-left:35px;
+   margin-bottom: 30px;
+ }
+
+  .discription-container .floating-image.right
+ {
+ 
+   margin-right:35px;
+   margin-bottom: 30px;
+ }
+
+ }
